@@ -1,7 +1,7 @@
 # **Online Bookstore API using FastAPI README**
 
 ## **Group Member Details:**
-- Member 1: Hardik Bhawsar () (hardik_bhawsar@csu.fullerton.edu)
+- Member 1: Hardik Bhawsar (885191064) (hardik_bhawsar@csu.fullerton.edu)
 - Member 2: Yathartha Patankar (885189803) (yatharthapatankar@csu.fullerton.edu)
 
 ## **Introduction:**
@@ -31,7 +31,7 @@ To run this, you need to have the following installed:
 - PyMongo
 - MongoDB Compass
 - Git
-- Text Editor or IDE
+- VS Code Editor
 
 ## **Steps to Run:**
 To run the project, you will need to do following steps:
