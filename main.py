@@ -118,7 +118,8 @@ async def get_top_authors_with_most_books():
         # Log the error and return an appropriate error message
         print(f"Error getting top authors: {e}")
         return {"message": "Failed to retrieve top authors"}
-    
+
+
 @app.get("/books/{book_id}", response_model=Union[Book, Dict[str, str]])
 async def get_book_by_id(book_id: str):
     try:
@@ -154,7 +155,6 @@ async def delete_book(book_id: str):
         # Log the error and return an appropriate error message
         print(f"Error deleting book: {e}")
         return {"message": "Failed to delete book"}
-
 
 
 if __name__ == "__main__":
